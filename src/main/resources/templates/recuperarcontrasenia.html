@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Google Web Fonts -->
+            <link rel="preconnect" href="https://fonts.gstatic.com">
+            <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+      
+
+    <title>Recuperar contrasenia</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/88e9d45919.js" crossorigin="anonymous"></script>
+ 
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <link rel="stylesheet" href="assets/css/style_contact.css">
+    <link rel="stylesheet" href="assets/css/iniciarSes.css">
+    <link rel="stylesheet" href="assets/css/styles_perfil.css">
+</head>
+<body>
+    <!-- Inicio del header -->
+   
+<nav class="navbar navbar-expand-lg header-nav fixed-top">
+  <div class="d-none d-lg-block">
+    <ul class="list-group list-group-horizontal " id="si">
+      <a href="index.html" class="nav-link1"><img id="home2" src="assets/img/home.png" alt=""></a>
+        <li class="list-group-item-none"> <a class="nav-link1"  href="iniciarSes.html"><img id="acceder" src="assets/img/acceer.png" alt=""></a></li>
+        <li class="list-group-item-none">  <a class="nav-link1"  href="registro.html"><img id="registro" src="assets/img/registro.png" alt=""></a></li>
+      </ul>
+</div>
+</ul>
+  <div class="container-fluid flex-row-reverse  " >
+    <a class="navbar-brand " href="index.html"> <img id="home" src="assets/img/nofondo 2.png" alt=""></a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span></span>
+      <span></span>
+      <span></span>
+    </button>
+   
+    <div class="collapse navbar-collapse " id="navbarSupportedContent">
+      <ul class="navbar-nav m-auto mb-2 mb-lg-0   flex-fill justify-content-between"  >
+        <li class="nav-item" >
+          <a class="nav-link d-block d-sm-block d-md-none"  href="iniciarSes.html"><img id="acceder" src="assets/img/acceer.png" alt=""></a>
+        </li>
+       
+          <a class="nav-link d-block d-sm-block d-md-none"  href="registro.html"><img id="registro" src="assets/img/registro.png" alt=""></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="sobrenosotros.html" id="a">Acerca de nosotros</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="contact.html" id="a">Contactos</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="productos.html" id="a">Productos</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="servicios.html" id="a">Servicios</a>
+        </li>
+      </ul>
+   
+  
+    </div>
+  </div>
+</nav>
+<!-- Fin del header -->
+
+<!-- Cuadro para Iniciar Sesión -->
+<!-- <div class="container py-5" style="margin-bottom: 270px; position: relative;"> -->
+  <div class="row justify-content-center my-5" >
+    <div class="col-lg-8 ">
+       
+      <form class="contacto-formulario p-5" id="inicSesion">
+        <div class="text-end">
+        <img src="assets/img/imagen-ico.ico" alt="flor" srcset="" width="48">
+        </div>
+          <div class="col-lg">
+              <h1 class="section-title position-relative text-center my-3">Reestablecer contraseña</h1>
+          </div> 
+
+           <!--Nombre de usuario-->
+           <div class="row formulario__grupo" id="grupo__nameUser">
+            <label for="nameUser" class="col-md-5  text-center"><strong>Nombre de usuario:</strong></label>
+            <div class="col formulario__grupo-input">
+            <input type="text" class="col form-control" name="nameUser" id="nameUser" pattern="[a-zA-Z]((\.|_|-)?[a-zA-Z0-9]+){3}"
+              title="El nombre de usuario debe de contener al menos 3 carácteres y puede contener números (no al inicio) "
+              placeholder="User123" disabled>
+              <i class="formulario__validacion-estado fa-solid fa-circle-xmark"></i>
+          </div>
+          <p class="form__input-error text-center">El nombre de usuario no puede contener espacios y no puede quedar vacío.</p>
+      </div> <br>
+
+<!-- Corregir espacio antes del Contraseña, bajar el recuadro y hacer del tamaño -->
+            
+        <!--Contrasenia-->
+        <div class="row mb-3 formulario__grupo" id="grupo__password">
+          <label for="password" class="col-md-5 form_label text-center" style="font-weight:700;"> Contraseña:</label>
+          <div class="col formulario__grupo-input">
+            <input type="password" class="col form-control" name="password" id="password"
+              pattern="^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[$@$!%*?&#.$($)$-$_])([A-Za-z\d$@$!%*?&#.$($)$-$_]|[^ ]){8,16}$" title="*Debe contener entre 8 y 16 caracteres. 
+                            Al menos una mayúscula y un caracter especial, como . * - + / $ @ " placeholder="Rojo1529#" required>
+                            <i class="formulario__validacion-estado fa-solid fa-circle-xmark"></i>
+                            <i class="ver fa-solid fa-eye-slash" id="ver-1"></i>
+                          </div>
+          <p class="form__input-error text-center">Debe contener entre 8 y 16 caracteres.
+            Al menos una mayúscula y un caracter especial, como . * - + / $ @</p>
+            
+        </div> <br>
+       
+            <!--Recordarme-->
+          	<div class="formulario__grupo" id="grupo__terminos">
+              <label class="formulario__label">
+                <input class="formulario__checkbox" type="checkbox" name="remember" id="remember">
+                Recordarme
+              </label>
+            </div>
+
+       
+<!-- Poner la florecita del LOGO como botón para recordarme --> 
+<!-- Opcion para recordar id y contraseña con cookies: https://es.stackoverflow.com/questions/79065/recordar-usuario-y-clave-en-navegador -->     
+        <!-- Botón para Ingresar -->
+            <div class="row mx-auto justify-content-center">
+              <button type="submit" id="boton" class="btn btn-primary py-3 px-3" style="width: 150px; height: 70px; margin-top: 10px;">INGRESAR</button>
+            </div> 
+        <!-- Para redirigir a otras paginas  -->
+            <div class="container-fluid row justify-content-md-center" style="margin-top: 25px;">
+              <div class="col-md-auto" style="text-align: center;">
+                <span><a href="olvidCont.html" id="ab">¿Olvidaste tu contraseña? &nbsp; </span> 
+                <span><a href="registro.html" id="a"><u>Registrarme</u></a></span>
+              </div>
+            </div>
+<!-- Fin del botón para Ingresar -->
+<!-- Falta que siempre se muestre en el centro o un texto encima del otro, pero centrados. -->        
+      </form>
+    </div>
+  </div>
+<!-- Fin de cuadro para Iniciar Sesión -->
+
+
+<!-- Inicio contenedor o footer -->
+<div class="container-fluid abajo text-center " >
+  <div class="row ">
+    <div id="logo" >
+      <a class="navbar-brand "  href="#"> <img class="home1" id="home"src="assets/img/nofondo 2.png" alt=""></a>
+  </div>
+  <div class="col-md-6  mapa d-none d-lg-block">
+    <div id="ac" >
+      <h1 id="sede" >Nuestra Sede</h1>
+      <h3 id="direccion" >Calzada del Federalismo Norte #3145 local 5.<br>Zapopan, Jal.</h3>
+  </div>
+
+  <div id="mapa" >
+      <iframe class="res"  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3731.6865854972293!2d-103.35799607756965!3d20.722947841912855!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8428b028afd25fcf%3A0xe365545c44c348c9!2sCalz%20del%20Federalismo%20Nte%203145%2C%20Atemajac%20del%20Valle%2C%2045130%20Zapopan%2C%20Jal.!5e0!3m2!1ses!2smx!4v1670347051845!5m2!1ses!2smx"     style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+  </div>
+  </div>
+  
+  <div class="col-md-2 legal ">
+    <h2 class="h22"> Legal</h2>
+    <a href="terminosCondiciones.html">Términos y condiciones</a> <br>
+    <a href="avisoPrivacidad.html">Aviso de privacidad</a>
+  </div>
+
+  <div class="col-md-2 contacto" >
+    <h2 class="h22">Contacto </h2>
+    <a href="https://instagram.com/spa_cioteens?igshid=YmMyMTA2M2Y=">Instagram</a> <br>
+    <a href="https://wa.me/3314654168">Whatsapp</a> <br>
+    <a href="https://www.facebook.com/profile.php?id=100063723231847">Facebook</a> <br>
+    <a href="tel:3312024408">Teléfono</a>
+
+  </div>
+
+ <div class="col-md-2  conocenos">
+    <h2 class="h22">Conócenos</h2>
+    <a href="sobrenosotros.html">Acerca de nosotros</a> <br>
+    <a href="servicios.html">Servicios</a> <br>
+    <a href="productos.html">Productos</a> <br>
+    <a href="registro.html">Registro</a>
+  </div>
+
+  </div>
+<br>
+ <a href="#" > Spa-cio teens © Todos los derechos reservados.</a>
+</div>
+<!-- Termina contenedor footer -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/formulario (recuperar contrasenia).js"></script>
+</body>
+
+</html>

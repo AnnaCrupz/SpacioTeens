@@ -1,0 +1,47 @@
+.blanco{
+  color: white;
+}
+input(type='checkbox')::before{
+  height:20px;
+}
+checkbox
+.cuadro{
+  width:50%;
+  height:40%;
+  border-radius: 8px;
+  padding:2%;
+  margin: 55px auto;
+  position: relative;
+  background:rgb(227, 74, 120);
+}
+button{
+  color: rgb(255, 255, 255);
+  background-color: rgb(227, 74, 120);
+  border-radius: 40px;
+  border: none;
+  align-items: center;
+  padding: 15px 32px;
+  margin-top: 155px;
+  margin-bottom: 15px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+}
+#boton{
+  margin-top: 55px;
+}
+h2{
+  text-align: center;
+}
+p{
+  align-items: center;
+}
+#ab{
+  text-decoration: none;
+  color: black;
+  font-weight: 300;
+}
+#ab:hover {
+  color: white  ;
+}

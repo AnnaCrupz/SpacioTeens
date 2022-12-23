@@ -1,0 +1,119 @@
+
+  
+#equipo{
+
+    position: relative;
+    top:0;
+    bottom: 0;
+    border: 3px red solid;
+  }
+  #equipo1{
+  
+    text-align: center; 
+  }
+
+  .carousel-inner{
+    margin: auto;
+   
+   width: 70%;
+    text-align: center; 
+  
+  }
+  .contcarr{
+  
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin: auto;
+    justify-content: center;
+    text-align: center;
+  width: auto;
+  }
+  
+  .mv{
+    width:auto;
+    height: 657px;
+    margin:auto;
+    margin-bottom: 20px;
+    
+  }
+  
+  
+  .container-fluid-historia{
+    background-color: rgb(255, 175, 220);
+    margin: auto;
+    width: 70%;
+    justify-content: center;
+    text-align: center;
+    border-radius: 10px;
+  
+  }
+
+  .container-fluid-mvs {
+
+    background-color: blanchedalmond;
+   padding-bottom: 10px;
+   padding-left: 30px;
+   padding-right: 30px;
+   padding-top: 30px;
+    margin: auto;
+    font-size: 20px;
+    width: 70%;
+    text-align: justify center;
+  margin-top: 20px;
+  margin-bottom: 50px;
+  }
+
+
+  @media (min-width: 320px) {
+
+    .m1{
+      height: auto;
+      width: 100%;
+    }
+  
+  }
+
+  @media (min-width:481px) {
+
+    .m1{
+      height: 300px;
+      width: 100%;
+    }
+  
+  }
+  /* Pantalla 768px o superior */
+  
+  @media (min-width: 768px) {
+  
+    .m1{
+      height: 590px;
+      width: 100%;
+    }
+  
+  }
+
+  @media (min-width: 320px) {
+
+    .m2{
+      height: auto;
+      width: auto;
+    }
+  
+  }
+  /* Pantalla 768px o superior */
+  @media (min-width:481px) {
+    .m2{
+      height: auto;
+      width: auto;
+    }
+  }
+  @media (min-width: 768px) {
+  
+    .m2{
+      height: 200px;
+      width: 300px;
+    }
+  
+  }
+  
+  

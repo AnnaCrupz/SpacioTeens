@@ -1,0 +1,200 @@
+.primero{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.productos{
+    display: flex;
+    justify-content: center;
+    margin: 5%;
+    height: fit-content;
+    width: fit-content;
+}
+.card{
+    margin: 0.5em;
+    height: 500px;
+    width: 350px;
+}
+#servicios{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.cards-wrapper {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  
+}
+.cards-wrap2 {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  
+}
+img{
+  max-height: 200px;
+}
+.btn-primary {
+  background-color: pink;
+}
+#indicator{
+  background-color: grey;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  align-items: center;
+}
+
+
+#btn_indicator{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 50px;
+
+}
+.carousel-control-next{
+  height: fit-content;
+}
+.carousel-control-prev{
+  height: fit-content;
+  padding-left:30px;
+  background-color: aqua;
+  color: aqua;
+}
+.container_1{
+  
+}
+
+
+/* HEADER COMUNAL */
+/* #a{text-decoration: none;
+    color: black;
+    font-weight: 500;
+  
+  
+  }
+  
+  #a:hover {color: rgb(235, 75, 101);}
+  #home {
+    height: 60px;
+  }
+  #acceder {
+    height: 30px;
+  }
+  #registro {
+    height: 30px;
+  }
+  #home1{
+    height: 40px;
+  }
+  #home2{
+    height: 35px;
+  }
+  nav{ background-color: rgb(255, 227, 193);
+    
+  
+    
+    }
+    .list-group ul{
+      list-style-type: none;
+      text-align: center;
+    }
+    .list-group li{display: inline;
+      text-align: center;
+      margin: 0 0 0 10px;
+      
+  
+    }
+  
+   
+    .navbar{
+      position: relative;
+      
+    }
+   
+    .navbar-toggler{background-color: rgb(255, 255, 255) ;
+      border: none;
+      padding: 10px 6px;
+      outline: 0;
+  
+    }
+    .navbar-toggler span{
+        display: block;
+        width: 22px;
+        height: 2px;
+        border: 1px;
+        background: rgb(242,43,178) ;
+     }
+     .navbar-toggler span + span{
+       margin-top: 4px;
+       width: 18px;
+       margin-left: 4px;
+     }
+     .navbar-toggler span + span + span{
+      width: 10px;
+        margin-left: 10px;
+      }
+  
+  #home{
+    margin-left: 50px;
+  
+  }
+ */
+ 
+
+ 
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+.borrar-curso {
+    background-color: red;
+    border-radius: 50%;
+    padding: 5px 10px;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+ul {
+    list-style: none;
+}
+.submenu {
+    position: relative;
+    
+    
+}
+
+.submenu #carrito{
+    display: none;
+}
+.submenu:hover #carrito{
+    display: block;
+    position: absolute;
+    right:0;
+
+    top:100%;
+    z-index: 1;
+    background-color: white;
+    padding: 20px;
+    min-height: 400px;
+    min-width: 300px;
+}
+.vacio {
+    padding: 10px;
+    background-color: crimson;
+    text-align: center;
+    border-radius: 10px;
+    color: white;
+}
+.agregar-carrito {
+    margin:10px 0;
+}
+
+.carr{
+width: 80px;
+margin-left: auto;
+}

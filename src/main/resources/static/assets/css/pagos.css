@@ -1,0 +1,18 @@
+.pago{
+  background: linear-gradient(120deg, #f8c2d0 0, #fcc1d1 25%, #f7a2bf 50%, #f09dbd 75%, #e69ebe 100%);
+  
+    width: 600px;
+    height: 400px;
+    margin: auto;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  border-radius: 20px;
+}
+
+form{
+    margin-top: 20px;
+    margin-left: 40px;
+    text-align: justify;
+  }
+
+
